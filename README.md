@@ -7,10 +7,10 @@
 Built on PHP and MYSQL
 <br/>
 <br/>
-<a href="https://github.com/shaiksahilrizwan/NewsCMS/tree/main/news"><strong>Explore the docs »</strong></a>
+<a href="https://github.com/shaiksahilrizwan/NewsCMS/tree/main/news"><strong>Explore the Code »</strong></a>
 <br/>
 <br/>
-<a href="https://youtu.be/34Hu7Ol6_Ns">View Demo .</a>  
+<a href="https://youtu.be/34Hu7Ol6_Ns">View Demo Video.</a>  
 
 
 </p>
@@ -20,9 +20,6 @@ Built on PHP and MYSQL
 
 The News CMS Website is a robust content management system designed specifically for news-related content. Built using PHP and MySQL, this project empowers both administrators and users to manage articles, categories, and user accounts seamlessly.
 ### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 - [PHP](https://www.php.net/)
 - [MySQL](https://www.mysql.com/)
 - [XAMPP](https://www.apachefriends.org/download.html)
@@ -38,7 +35,7 @@ _Below is an example of how you can instruct your audience on installing and set
 1. Clone the repo to ht docs folder in xampp folder where xampp is installed
    ```sh
      git clone https://github.com/shaiksahilrizwan/NewsCMS.git
-
+     cd NewsCMS/news
    ```
 3. In XAMPP Control Panel  start Apache and MySQL Servers and visit
    ```sh  
@@ -55,8 +52,8 @@ Manage categories, posts, and user accounts.
 Create, edit, and delete posts.
 Upload images for posts.
 User Interaction:
-Users can register, log in, and submit their own posts.
-Articles are categorized based on topics (e.g., Politics, Sports, Technology).
+Users can register, log in, and upload their own posts.
+Articles are categorized based on topics/categories (e.g., Politics, Sports, Technology).
 ## Contributing
 
 Enhancements you can perform:
@@ -66,7 +63,7 @@ Create a branch with name new-main and contact me so that I can verify the contr
 
 ## Contact
 
-Contact me using the links provided in my  profile
+Contact me using the email<a href="shaiksahilrizwan@gmail.com">Sahil Rizwan</a>"
 ## Acknowledgments
 
 The template of website is created by Yahoo Baba YouTube Channel
