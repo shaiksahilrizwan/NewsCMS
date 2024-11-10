@@ -57,8 +57,10 @@ Articles are categorized based on topics/categories (e.g., Politics, Sports, Tec
 ## Contributing
 
 Enhancements you can perform:
+<br>
 Comments and Interactivity: Add a commenting system for user engagement.
 Adding client side interactivity and scripting.
+<br>
 Create a branch with name new-main and contact me so that I can verify the contribution and push it to main branch.
 
 ## Contact
