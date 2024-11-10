@@ -41,7 +41,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh  
      http://localhost/news
    ```
-4.In localhost chose phpmyadmin and run the script present in Database/database.script
+4.In localhost chose phpmyadmin and run the script present in Database/Database.sql
 
 5.Now you can use the Admin interface and all
 ## Usage
@@ -63,7 +63,7 @@ Create a branch with name new-main and contact me so that I can verify the contr
 
 ## Contact
 
-Contact me using the email<a href="shaiksahilrizwan@gmail.com">Sahil Rizwan</a>"
+Contact me using the email<a href="shaiksahilrizwan@gmail.com">Sahil Rizwan</a>
 ## Acknowledgments
 
 The template of website is created by Yahoo Baba YouTube Channel
