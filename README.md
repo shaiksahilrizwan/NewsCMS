@@ -69,6 +69,4 @@ Create a branch with name new-main and contact me so that I can verify the contr
 Contact me using the links provided in my  profile
 ## Acknowledgments
 
-The template is created by Yahoo Baba YouTube Channel
-
-
+The template of website is created by Yahoo Baba YouTube Channel
