@@ -158,11 +158,11 @@
               </thead>
               <tbody class="bg-white divide-y divide-gray-200">
                 <?php
-                  $limit=5;
-                  $offset=($page-1)*$limit;
+                  $limit=5;#hard coded page limit
+                  $offset=($page-1)*$limit; #finding the record number
                   $sqlfetch="SELECT * FROM USER ORDER BY USERID DESC LIMIT {$offset},{$limit}";
                   $result=mysqli_query($conn,$sqlfetch)or die("Connection Failed");
-                  if(mysqli_num_rows($result)>0){
+                  if(mysqli_num_rows($result)>0){ #assoc array fetch
                 while($row=mysqli_fetch_assoc($result)){ ?>
                 <!-- Example rows, replace with dynamic data -->
                 <tr class="bg-gray-50 hover:bg-gray-100">
@@ -226,13 +226,14 @@
     >Prev</a>
     <?php }?>
     <?php 
+    #checking no of records present
       $sqlpage="SELECT * FROM USER";
       $resultpages=mysqli_query($conn,$sqlpage) or die("Fatal error!");
-      $noOfRecords=mysqli_num_rows($resultpages);
-      if($noOfRecords>0){
-        $totalpages=ceil($noOfRecords/5);
+      $noofrecords=mysqli_num_rows($resultpages);
+      if($noofrecords>0){
+        $totalpages=ceil($noofrecords/5);
         for($i=1;$i<=$totalpages;$i++){
-      
+          #no of pages and sending the page into url
     ?>
     <a
       href="users.php?page=<?php echo $i; ?>"
@@ -246,6 +247,7 @@
     ?>
     <?php 
       if($page!=$totalpages){
+        #if last page then if not executed;
     ?>
   <a
       href="users.php?page=<?php echo $page+1; ?>"
